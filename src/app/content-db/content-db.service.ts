@@ -1,6 +1,7 @@
 import {Injectable} from '@angular/core';
 import {CohContentDb, IBadge, IGameMap, IServerGroup} from "coh-content-db";
 import {Homecoming, HomecomingBadges, HomecomingChangelog} from "coh-content-db-homecoming";
+import {Thunderspy, ThunderspyBadges, ThunderspyChangelog} from "coh-content-db-thunderspy";
 
 @Injectable({
     providedIn: 'root'
@@ -13,6 +14,9 @@ export class ContentDbService {
         this.contentDb.load(new Homecoming());
         this.contentDb.load(new HomecomingBadges());
         this.contentDb.load(new HomecomingChangelog());
+		this.contentDb.load(new Thunderspy());
+        this.contentDb.load(new ThunderspyBadges());
+        this.contentDb.load(new ThunderspyChangelog());
     }
 
     public getServerGroups(): IServerGroup[] {

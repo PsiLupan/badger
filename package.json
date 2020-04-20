@@ -4,16 +4,18 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
-        "build": "ng build --prod --aot --base-href \"https://n15g.github.io/badger/\" --deploy-url \"https://n15g.github.io/badger/\" --rebase-root-relative-css-urls=true",
+        "build": "ng build --prod --aot --base-href \"https://psilupan.github.io/badger/\" --deploy-url \"https://psilupan.github.io/badger/\" --rebase-root-relative-css-urls=true",
         "pages": "ngh --branch=gh-pages",
         "link:db": "npm link coh-content-db",
         "link:hc": "npm link coh-content-db-homecoming",
+        "link:ts": "npm link coh-content-db-thunderspy",
         "upgrade:db": "npm install --save coh-content-db@latest",
         "upgrade:hc": "npm install --save coh-content-db-homecoming@latest",
+        "upgrade:ts": "npm install --save coh-content-db-thunderspy@latest",
         "test": "ng test",
         "lint": "ng lint"
     },
-    "repository": "https://github.com/n15g/badger",
+    "repository": "https://github.com/psilupan/badger",
     "private": true,
     "dependencies": {
         "@angular/animations": "~8.0.0",
@@ -35,6 +37,7 @@
         "bootstrap": "^4.3.1",
         "coh-content-db": "^1.4.1",
         "coh-content-db-homecoming": "^1.2.4",
+        "coh-content-db-thunderspy": "^1.0.1",
         "jquery": "^3.4.1",
         "js-base64": "^2.5.1",
         "karma-coverage-istanbul-reporter": "^2.1.0",
