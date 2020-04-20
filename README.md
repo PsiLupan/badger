@@ -19,6 +19,7 @@ I actively encourage anyone who wants to use the badge data for other projects t
 The currently supported server groups are:
 
 * Homecoming - https://github.com/n15g/coh-content-db-homecoming
+* Thunderspy - https://github.com/psilupan/coh-content-db-thunderspy
 
 If anyone is interested in creating or maintaining the data for other server groups, let me know.
 
